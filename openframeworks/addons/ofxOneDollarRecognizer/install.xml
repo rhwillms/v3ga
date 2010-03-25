@@ -1,0 +1,35 @@
+<install>
+
+	<version>1.0</version>
+	<author>Julien Gachadoat</author>
+	<url></url>
+
+    <requires>
+	</requires>
+    
+	<add>	
+		<src>
+			<folder name="addons/ofxOneDollarRecognizer/src">			
+				<file>../../../addons/ofxOneDollarRecognizer/src/ofxOneDollarRecognizer.h</file>
+			</folder>
+			<folder name="addons/ofxOneDollarRecognizer/libs/cpp.bw/src/">			
+				<file>../../../addons/ofxOneDollarRecognizer/libs/cpp.bw/src/GeometricRecognizerTypes.h</file>
+				<file>../../../addons/ofxOneDollarRecognizer/libs/cpp.bw/src/GeometricRecognizer.h</file>
+				<file>../../../addons/ofxOneDollarRecognizer/libs/cpp.bw/src/GeometricRecognizer.cpp</file>
+				<file>../../../addons/ofxOneDollarRecognizer/libs/cpp.bw/src/GestureTemplate.h</file>
+				<file>../../../addons/ofxOneDollarRecognizer/libs/cpp.bw/src/SampleGestures.h</file>
+				<file>../../../addons/ofxOneDollarRecognizer/libs/cpp.bw/src/PathWriter.h</file>
+			</folder>
+		</src>
+
+		<include>
+			<path>../../../addons/ofxOneDollarRecognizer/src</path>
+			<path>../../../addons/ofxOneDollarRecognizer/libs/cpp.bw/src/</path>
+		</include>
+		
+		<link>
+		</link>
+
+	</add>
+	
+</install>
