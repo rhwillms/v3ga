@@ -56,14 +56,15 @@ void testApp::mousePressed(int x, int y, int button){
 //--------------------------------------------------------------
 void testApp::mouseReleased(int x, int y, int button){
 	ofxGestureResult result = gestures.end();
-	printf("--> %s (score : %.3f)", result.c_str(), (float)result.score);
+	printf("--> %s (score : %.3f) \n", result.name.c_str(), (float)result.score);
 }
 
 //--------------------------------------------------------------
 void testApp::windowResized(int w, int h){
 }
 
-//--------------------------------------------------------------
+
+//--------------------------------------------------------------
 void testApp::onGesture(ofxGestureResult& result)
 {
 
